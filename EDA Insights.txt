@@ -1,0 +1,29 @@
+Trainset size : 15300
+Devset size : 800
+
+labels = {'O', 'B-PROD', 'I-PROD', 'B-GRP', 'I-GRP', 'B-PER', 'I-PER', 'B-CORP', 'I-CORP', 'B-LOC', 'I-LOC','B-CW', 'I-CW'}
+
+labels distribution:
+==============================
+B-CORP : 1.25 %
+B-CW : 1.04 %
+B-GRP : 1.16 %
+B-LOC : 1.13 %
+B-PER : 1.26 %
+B-PROD : 1.54 %
+I-CORP : 1.30 %
+I-CW : 1.37 %
+I-GRP : 2.05 %
+I-LOC : 0.70 %
+I-PER : 1.51 %
+I-PROD : 0.95 %
+O : 77.34 %
+
+label types distribution:
+===============================
+CORP : 2.56 %
+CW : 2.41 %
+LOC : 1.84 %
+PER : 2.77 %
+GRP : 3.21 %
+PROD : 2.49 %
