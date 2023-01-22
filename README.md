@@ -15,11 +15,11 @@ https://multiconer.github.io/competition
 
 **train_inference.py:**
 
-The train_file_path, train_file_path need to be set inside the main function and the varialble 'train' need to be set to True to train.
+The train_file_path, validation_file_path need to be set inside the main function and the varialble 'train' need to be set to True to train.
 
 ## Running Feature Based Model
 
 **bangla-crf-baseline.ipynb and bangla-crf-with-kmeans-and-gazetteer.ipynb:**
 
 
-The files included in the data folder should be remain in a relative path "../data" for 
+The files included in the data folder should remain in a relative path "../data" for running the notebooks.
