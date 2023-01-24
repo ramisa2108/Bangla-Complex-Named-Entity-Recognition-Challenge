@@ -1,4 +1,4 @@
-# NLP-Hackathon-2023
+# Bangla-Complex-Named-Entity-Recognition-Challenge
 
 
 ## Running DL Model
