@@ -1,5 +1,6 @@
 # Bangla-Complex-Named-Entity-Recognition-Challenge
 
+Winning Solution for the **Bangla Complex Named Entity Recognition Challenge** - BDOSN NLP Hackathon 2023
 
 ## Running DL Model
 
