@@ -2,6 +2,24 @@
 
 Winning Solution for the **Bangla Complex Named Entity Recognition Challenge** - BDOSN NLP Hackathon 2023
 
+## **Dataset**
+
+The provided dataset was a labeled Bangla NER dataset in the `ċonll` format where each word had a corresponding NER tag and sentences were separated with empty lines. The `train` set consists of *15300* sentences and the `validation` set has *800* sentences. The length of the sentences in both sets varies from *2 words to 35 words* with the average length being 12 words. There are 7 different NER tags in the given dataset.
+
+| Tags | Count |
+|:----:|:-----:|
+|  `LOC` |  3804 |
+|  `GRP` |  6653 |
+| `PROD` |  5152 |
+|  `CW`  |  5001 |
+| `CORP` |  5299 |
+|  `PER` |  6738 |
+|   `O`  |  170K |
+
+Presence of `CW`, `PROD`, `CORP` and `GRP` tags in the dataset makes the task challenging.
+
+The dataset is available in the [`data`](/data/) folder.
+
 ## Running DL Model
 
 ### Normalizer (Required)
