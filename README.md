@@ -2,7 +2,7 @@
 
 Winning Solution for the **Bangla Complex Named Entity Recognition Challenge** - BDOSN NLP Hackathon 2023
 
-## **Dataset**
+# **Dataset**
 
 The provided dataset was a labeled Bangla NER dataset in the `ċonll` format where each word had a corresponding NER tag and sentences were separated with empty lines. The `train` set consists of *15300* sentences and the `validation` set has *800* sentences. The length of the sentences in both sets varies from *2 words to 35 words* with the average length being 12 words. There are 7 different NER tags in the given dataset.
 
@@ -19,6 +19,12 @@ The provided dataset was a labeled Bangla NER dataset in the `ċonll` format whe
 Presence of `CW`, `PROD`, `CORP` and `GRP` tags in the dataset makes the task challenging.
 
 The dataset is available in the [`data`](/data/) folder.
+
+# **Approach**
+
+The competition had two tracks, one was a DL based track and the other was a feature based track. We participated in both the tracks and our solution for the DL based track was based on the [Bangla BERT](https://github.com/csebuetnlp/banglabert) architecture and our solution for the feature based track was based on the [CRF](https://en.wikipedia.org/wiki/Conditional_random_field) architecture.
+
+# **Reproducing the Results**
 
 ## Running DL Model
 
