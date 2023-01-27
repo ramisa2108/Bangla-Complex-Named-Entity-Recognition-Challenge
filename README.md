@@ -24,6 +24,35 @@ The dataset is available in the [`data`](/data/) folder.
 
 The competition had two tracks, one was a DL based track and the other was a feature based track. We participated in both the tracks and our solution for the DL based track was based on the [Bangla BERT](https://github.com/csebuetnlp/banglabert) architecture and our solution for the feature based track was based on the [CRF](https://en.wikipedia.org/wiki/Conditional_random_field) architecture.
 
+*Read the [[summary report](BUET_Semantic_Shenanigans_Report_1430.pdf)] for more details.*
+
+# **Results**
+
+## `Feature Based Track`
+
+|                              Feature                                  |    F1 Score   |
+|:----------------------------------------------------------------:     |:-------------:|
+|                        POS Tagger, Suffix                             |     0.56      |
+|               POS Tagger, Suffix, k-Neighbor Words                    |     0.62      |
+|       POS Tagger, Suffix, k-Neighbor Words, Gazetteer Lists           |     0.689     |
+|           POS Tagger, Prefix, Suffix, k-Neighbor Words                |     0.692     |
+| **POS Tagger, Prefix, Suffix, k-Neighbor Words, k-means clustering**  |   **0.72**    |
+
+## `DL Based Track`
+
+| **Model**                     | **Batch Size** | **Max Seq Length** | **Epoch** | **F1 Score** |
+|:-----------------------------:|:--------------:|:------------------:|:---------:|:-------------:|
+| base                          | 16             | 128                | 3         | 0.73          |
+| large                         | 16             | 128                | 3         | 0.77          |
+| large                         | 32             | 64                 | 3         | 0.76          |
+| large                         | 16             | 128                | 6         | 0.78          |
+| large                         | 32             | 64                 | 6         | 0.79          |
+| oversampled+large             | 16             | 128                | 6         | 0.78          |
+| SemEval2023data+large         | 32             | 64                 | 4         | 0.78          |
+| SemEval2023data+weights+large | 32             | 64                 | 4         | 0.74          |
+| **SemEval2023data+large**         | 32             | 64                 | 6         | **0.79**          |
+
+
 # **Reproducing the Results**
 
 ## Running DL Model
