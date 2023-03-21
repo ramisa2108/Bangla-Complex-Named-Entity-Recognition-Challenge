@@ -1,6 +1,6 @@
 # Bangla-Complex-Named-Entity-Recognition-Challenge
 
-Winning Solution for the **Bangla Complex Named Entity Recognition Challenge** - BDOSN NLP Hackathon 2023
+Winning Solution for the **Bangla Complex Named Entity Recognition Challenge** - BDOSN NLP Hackathon 2023 [[arxiv](https://arxiv.org/abs/2303.09306)]
 
 # **Dataset**
 
@@ -24,7 +24,7 @@ The dataset is available in the [`data`](/data/) folder.
 
 The competition had two tracks, one was a DL based track and the other was a feature based track. We participated in both the tracks and our solution for the DL based track was based on the [Bangla BERT](https://github.com/csebuetnlp/banglabert) architecture and our solution for the feature based track was based on the [CRF](https://en.wikipedia.org/wiki/Conditional_random_field) architecture.
 
-*Read the [[summary report](BUET_Semantic_Shenanigans_Report_1430.pdf)] for more details.*
+*Read the [[arxiv report](https://arxiv.org/abs/2303.09306)] for more details.*
 
 # **Results**
 
@@ -79,6 +79,8 @@ The train_file_path, validation_file_path need to be set inside the main functio
 The files included in the data folder should remain in a relative path "../data" for running the notebooks.
 
 # **Citation**
+[[arxiv](https://arxiv.org/abs/2303.09306)]
+
 ```bibtex
 @misc{shahgir2023banglaconer,
       title={BanglaCoNER: Towards Robust Bangla Complex Named Entity Recognition}, 
