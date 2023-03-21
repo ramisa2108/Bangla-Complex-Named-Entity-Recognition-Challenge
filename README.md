@@ -77,3 +77,15 @@ The train_file_path, validation_file_path need to be set inside the main functio
 
 
 The files included in the data folder should remain in a relative path "../data" for running the notebooks.
+
+# **Citation**
+```bibtex
+@misc{shahgir2023banglaconer,
+      title={BanglaCoNER: Towards Robust Bangla Complex Named Entity Recognition}, 
+      author={HAZ Sameen Shahgir and Ramisa Alam and Md. Zarif Ul Alam},
+      year={2023},
+      eprint={2303.09306},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
